@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="0.8"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/lp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dni"
+        android:background="#437EEC"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/background_light"
+        android:text="Buscador" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFDA8200"
+        android:onClick="Importar"
+        android:text="Importar Data"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/background_light" />
+</LinearLayout>
